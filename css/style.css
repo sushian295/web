@@ -1,0 +1,109 @@
+body{
+    margin:0px;
+    padding: 0px;
+    direction: rtl;
+}
+.header{
+    background-color: Silver;
+
+}
+.header{
+  text-align: center;
+}
+.menu{
+  text-align: right;
+}
+h1{
+    padding: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+h1:hover{
+    color:white;
+    transition: 0.3s;
+}
+h4{
+    padding: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+h4:hover{
+    color:white;
+    transition: 0.3s;
+}
+.menu{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+
+}
+.menu li{
+  display: inline;
+  padding-left: 30px;
+  margin: 10px;
+
+}
+.menu li a{
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: sans-serif;
+  transition:0.3s;
+  width:20px;
+}
+.menu li a:hover{
+  background-color: white;
+  color: black;
+  padding:5px 5px 5px 5px;
+  transition: 0.3s;
+  width: 25px;
+  border-radius: 10px;
+
+}
+.title1{
+  margin-right:190px;
+  width: 800px;
+  background-color: gray;
+  text-align: center;
+  transition: 0.3s;
+  padding: 5px;
+  color: black;
+}
+.title1:hover{
+  transition: 0.3s;
+  color:white;
+}
+.videos{
+  width: 800px;
+  margin-right: 190px;
+  text-align: center;
+  padding: 5px;
+  background-color: cornsilk;
+  box-shadow: 2px 2px 10px gray;
+}
+.videos h4{
+  color: black;
+  transition: 0.3s;
+}
+.videos h4:hover{
+  transition: 0.3s;
+  color: lightgray;
+}
+.footer{
+    background-color: dimgray;
+    
+}
+.footer marquee{
+    text-align: left;
+    padding: 5px;
+    transition: 0.3s;
+    color: black;
+}
+.footer marquee:hover{
+    transition: 0.3s;
+    color: white;
+    font-size: 18px;
+}
